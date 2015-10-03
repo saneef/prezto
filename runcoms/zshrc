@@ -12,6 +12,8 @@ fi
 
 # Customize to your needs...
 
+unsetopt CORRECT
+
 export NVM_DIR="/Users/saneef/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
