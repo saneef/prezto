@@ -10,7 +10,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+## Customize to your needs...
+
+# Disable rm
+alias rm='echo "rm is disabled, use trash or /bin/rm instead."'
 
 # Disable ZSH Autocorrect completely
 unsetopt CORRECT
@@ -20,7 +23,6 @@ export PATH=$PATH:~/.minions:"/Applications/Sublime Text.app/Contents/SharedSupp
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
 
 export NVM_DIR="/Users/saneef/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
