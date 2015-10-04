@@ -19,3 +19,6 @@
 [submodule "modules/autosuggestions/external"]
 	path = modules/autosuggestions/external
 	url = https://github.com/tarruda/zsh-autosuggestions
+[submodule "modules/web-developer"]
+	path = modules/web-developer
+	url = git@github.com:saneef/prezto-module-web-developer.git
