@@ -18,6 +18,10 @@ unsetopt CORRECT
 # Update PATH Variable
 export PATH=$PATH:~/.minions:"/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 
+# rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+
 export NVM_DIR="/Users/saneef/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
