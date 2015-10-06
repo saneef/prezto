@@ -22,3 +22,6 @@
 [submodule "modules/web-developer"]
 	path = modules/web-developer
 	url = git@github.com:saneef/prezto-module-web-developer.git
+[submodule "modules/jump-to"]
+	path = modules/jump-to
+	url = git@github.com:saneef/prezto-module-jump-to.git
