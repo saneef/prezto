@@ -19,7 +19,7 @@ alias rm='echo "rm is disabled, use trash or /bin/rm instead."'
 unsetopt CORRECT
 
 # Update PATH Variable
-export PATH=$PATH:~/.minions:"/Applications/Sublime Text.app/Contents/SharedSupport/bin"
+export PATH=$PATH:~/bin:~/.minions:"/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
