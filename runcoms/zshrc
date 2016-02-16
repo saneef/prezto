@@ -15,6 +15,9 @@ fi
 # Disable rm
 alias rm='echo "rm is disabled, use trash or /bin/rm instead."'
 
+# Linking to latest Emacs
+alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw $@'
+
 # Disable ZSH Autocorrect completely
 unsetopt CORRECT
 
