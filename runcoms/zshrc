@@ -12,17 +12,19 @@ fi
 
 ## Customize to your needs...
 
-# Disable rm
-alias rm='echo "rm is disabled, use trash or /bin/rm instead."'
+##
+# Aliases
+##
 
-# Linking to latest Emacs
+alias rm='echo "rm is disabled, use trash or /bin/rm instead."'
 alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs -nw $@'
+alias ts='trash $@'
 
 # Disable ZSH Autocorrect completely
 unsetopt CORRECT
 
 # Update PATH Variable
-export PATH=$PATH:~/bin:~/.minions:"/Applications/Sublime Text.app/Contents/SharedSupport/bin"
+export PATH=$PATH:~/bin:~/.minions:"/Applications/Sublime Text.app/Contents/SharedSupport/bin:"
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
@@ -30,3 +32,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export NVM_DIR="/Users/saneef/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# iTerm2 Shell integration
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
