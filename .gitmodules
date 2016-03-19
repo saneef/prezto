@@ -25,3 +25,6 @@
 [submodule "modules/jump-to"]
 	path = modules/jump-to
 	url = git@github.com:saneef/prezto-module-jump-to.git
+[submodule "modules/prompt/external/agnoster-light"]
+	path = modules/prompt/external/agnoster-light
+	url = https://github.com/saneef/agnoster-light-zsh-theme.git
