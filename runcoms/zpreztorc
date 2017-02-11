@@ -26,24 +26,26 @@ zstyle ':prezto:*:*' color 'yes'
 zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
-  'editor' \
   'history' \
   'directory' \
-  'spectrum' \
   'utility' \
   'completion' \
   'prompt' \
   'git' \
   'osx' \
   'jump-to' \
-  'web-developer'
+  'web-developer' \
+  'deer'
+
+  # 'editor' \ # after terminal
+  # 'spectrum' \ # after 'directory'
 
 #
 # Deer
 #
 
 # Set key bindings
-# zstyle ':prezto:module:deer' key-bindings '^k'
+zstyle ':prezto:module:deer' key-bindings '^k'
 
 #
 # Autosuggestions
